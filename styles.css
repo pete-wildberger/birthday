@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    font-size: 22px;
+    font-family: "Helvetica", sans-serif;
+    background-color: #333333;
+  }
+  h1 {
+    color: white;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    font-size: 2rem;
+  }
+  #container {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 8px; /* Adjustment for the gutter */
+    width: 100%;
+  }
+  
+  .item {
+    flex: auto;
+    height: 200px;
+    min-width: 120px;
+    margin: 0 8px 8px 0; /* Some gutter */
+  }
+  .item img {
+        height: 100%;
+}
